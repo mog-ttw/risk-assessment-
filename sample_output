@@ -1,0 +1,93 @@
+PROJECT 1 — SAMPLE PROGRAM OUTPUT
+Dynamic Academic Performance and Risk Analysis Engine
+=====================================================
+
+The following is illustrative output using the updated student names.
+The program asks for your own university student ID at startup.
+
+Student ID: YOUR_STUDENT_ID
+Project: Dynamic Academic Performance and Risk Analysis Engine
+Custom Analysis: Academic Risk Index
+
+[Option 2 — Display all students]
+
+ID       NAME                    COURSE              GRADE
+---------------------------------------------------------------
+1001     Daniel Aiyedogbon       Mathematics         85.00
+1002     teller james            Programming         48.00
+1003     shema Williams          Mathematics         92.00
+1004     David nelson            Programming         65.00
+1005     betty davinah           Database             37.00
+1006     frenando Martinus       Database             76.00
+1007     jason derula            Mathematics         88.00
+1008     ishimwe tania           Programming         55.00
+1009     Ikirezi deborah         Database             95.00
+1010     Nshimiyimana bebe       Mathematics         29.00
+
+[Option 4 — Calculate average]
+
+Class average: 67.00
+
+[Option 5 — Find top-performing student]
+
+--- TOP-PERFORMING STUDENT ---
+ID       NAME                    COURSE              GRADE
+1009     Ikirezi deborah         Database             95.00
+
+[Option 6 — Search for a student by name]
+
+Example search: Daniel Aiyedogbon
+
+1001     Daniel Aiyedogbon       Mathematics         85.00
+
+[Option 8 — Academic Risk Analysis]
+
+ID       NAME                    GRADE    RISK INDEX  RISK LEVEL
+1001     Daniel Aiyedogbon       85.00       15.00    LOW RISK
+1002     teller james            48.00       52.00    HIGH RISK
+1003     shema Williams          92.00        8.00    LOW RISK
+1004     David nelson            65.00       35.00    MODERATE RISK
+1005     betty davinah           37.00       63.00    HIGH RISK
+1006     frenando Martinus       76.00       24.00    LOW RISK
+1007     jason derula            88.00       12.00    LOW RISK
+1008     ishimwe tania           55.00       45.00    MODERATE RISK
+1009     Ikirezi deborah         95.00        5.00    LOW RISK
+1010     Nshimiyimana bebe       29.00       71.00    HIGH RISK
+
+Risk distribution:
+Low-risk students: 5 (50.00%)
+Moderate-risk students: 2 (20.00%)
+High-risk students: 3 (30.00%)
+
+[Option 1 — Add a new student]
+
+Enter student ID: 1011
+Enter full name: Daniel
+Enter course: Programming
+Enter grade (0-100): 81
+Student added successfully.
+
+[Option 7 — Remove the test record]
+
+Enter student ID to remove: 1011
+Removing student: Daniel
+Student removed successfully.
+
+[Option 9 — Summary report]
+
+======= ACADEMIC SUMMARY REPORT =======
+Total student records: 10
+Average grade: 67.00
+Highest grade: 95.00
+Lowest grade: 29.00
+Students who passed: 7
+Students below pass mark: 3
+High-risk students: 3
+Pass threshold: 50.00
+Pass rate: 70.00%
+
+[Option 10 — Exit]
+
+Exiting Academic Performance Engine...
+All allocated memory released.
+Program terminated successfully.
